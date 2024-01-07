@@ -1,14 +1,14 @@
 layout: true
-class: img-left
+class: compact
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: slide3
 
-## Secure Deployment through Packer and Terraform Collaboration
+## Deploying Packer Images with Terraform
 
-![scale:50%](./assets/logos/logo_terraform.png)
-
-Once Packer creates secure images, Terraform seamlessly takes over, utilizing these images for automated cloud instance launches. This collaboration ensures consistent and secure infrastructure deployment across various environments.
+    * Once a Packer image has been created, it can be deployed using Terraform --
+    * Terraform reads the Packer image's ID and uses it to launch instances in the cloud --
+    * This allows you to automate the deployment of your infrastructure, ensuring consistency across multiple environments
 
 ???
 
